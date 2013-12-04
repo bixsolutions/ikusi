@@ -1,0 +1,382 @@
+.textCenter{
+text-align:center;
+
+}
+.menuP{
+background-color:#1C95CC;
+}
+.fistPanle{ background: none repeat scroll 0% 0% white !important; border: medium none !important;}
+.cuadriculado{background-color:gray;     padding-top: 20px;}
+.name{ background-image: url("../images/logo-ikusi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 60px;
+    margin: 30px;
+    padding: 30px;
+    width: 130px;
+}
+.bolder {
+    font-size: 13px;
+    font-weight: bold;
+    word-spacing: 1px;    letter-spacing: 1px;
+}
+.normal{
+font-size: 12px;
+}
+.divChild{
+	margin:0 auto;
+	width:60%;
+	height:150px;
+	color:#FFFFFF;
+	
+	}
+.divChild h3{
+color:#FFFFFF;
+}
+
+.dline
+{
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #FFFFFF;
+padding:5px;
+}
+.playbtn{
+	background-image: url("../images/btn-home.png");
+    background-position: 135px 0;
+    height: 79px;
+    margin: 0 auto;
+    width: 79px;
+}
+.playbtn:hover{
+	background-image: url("../images/btn-home.png");
+    background-position: 212px 0;
+    height: 79px;
+    margin: 0 auto;
+    width: 79px;
+}
+.onePanel{	
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	}
+.twitter{
+	background-image: url("../images/btn-home.png");
+    background-position: 0px 0;
+    height: 38px;
+    margin: 0 auto;
+    width: 35px;
+	margin-bottom:3px;
+}
+.twitter:hover{
+	background-image: url("../images/btn-home.png");
+    background-position: -35px 0;
+    height: 38px;
+    margin: 0 auto;
+    width: 35px;
+	margin-bottom:3px;
+}
+.facebook{
+background-image: url("../images/btn-home.png");
+    background-position: 0px 70px;
+    height:35px;
+    margin: 0 auto;
+    width: 35px;
+	margin-bottom:3px;
+}
+.facebook:hover{
+background-image: url("../images/btn-home.png");
+    background-position: -35px 70px;
+    height:35px;
+    margin: 0 auto;
+    width: 35px;
+	margin-bottom:3px;
+	
+}
+.donacion{
+background-image: url("../images/btn-home.png");
+    background-position: 0px 36px;
+    height: 35px;
+    margin: 0 auto;
+    width: 35px;
+}
+.donacion:hover{
+background-image: url("../images/btn-home.png");
+    background-position: -35px 36px;
+    height: 35px;
+    margin: 0 auto;
+    width: 35px;
+}
+#corazon {
+    background-image: url("../images/otros.png");
+    background-position: 100px 93px;
+    float: right;
+    height: 49px;
+    margin: 0 auto;
+    width: 51px;
+	}
+#corazon:hover {
+    background-image: url("../images/otros.png");
+    background-position: 50px 93px;
+    float: right;
+    height: 49px;
+    margin: 0 auto;
+    width: 51px;
+	}	
+.comillas {
+    background-image: url("../images/btn-home.png");
+    background-position: 74px 141px;
+    float: left;
+    height: 25px;
+    margin: 0 auto;
+    width: 25px;
+}
+.slideLeft{background-image: url("../images/btn-home.png");
+    background-position: 146px 142px;
+    float: left;
+    height: 35px;
+       margin: 30px auto 0;
+    width: 35px;}
+.slideRight{
+	    background-image: url("../images/btn-home.png");
+    background-position: 111px 141px;
+    float: left;
+    height: 35px;
+     margin: 30px auto 0;
+    width: 35px;}
+.imgPost{
+  background: gray;
+    height: 140px;
+    margin: 0 auto 30px;
+    overflow: hidden;
+    width: 90%;
+}
+.blueLine{
+border-left:5px solid #12679E;
+overflow:hidden;
+padding:5px;
+}
+.more {
+    background: none repeat scroll 0 0 #575556;
+    color: #FFFFFF;
+    float: right;
+    margin-right: -20px;
+    padding: 3px 5px;
+}
+.contentMore{height: 30px; width: 100%;}
+
+.liston {
+    background-image: url("../images/otros.png");
+    background-position: 0 95px;
+    float: left;
+    height: 95px;
+    margin: 0 auto;
+    width: 98px;
+}
+.liston2 {
+    background-image: url("../images/otros.png");
+    background-position: -90px 95px;
+    float: right;
+    height: 95px;
+    margin: 0 auto;
+    width: 98px;
+}
+.contentCenter{
+  background: none repeat scroll 0 0 #1D97CF;
+    height: 71px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 32px;
+  margin-bottom:50px  
+}
+
+.contentCenter h1{ text-align: center;
+    color: #FFFFFF}
+.donarG{
+ background-image: url("../images/involucrate.png");
+    background-position: 0 0;
+    height: 185px;
+    margin: 0 auto;
+    width: 264px
+
+}
+.donarG:hover{
+ background-image: url("../images/involucrate.png");
+    background-position: 264px 0;
+    height: 185px;
+    margin: 0 auto;
+    width: 264px
+
+}
+.participarG{
+  background-image: url("../images/involucrate.png");
+    background-position: 0 370px;
+    height: 185px;
+    margin: 0 auto;
+    width: 264px;
+
+}
+.participarG:hover{
+   background-image: url("../images/involucrate.png");
+    background-position: 264px 370px;
+    height: 185px;
+    margin: 0 auto;
+    width: 264px;
+
+}
+.difundirG{
+    background-image: url("../images/involucrate.png");
+    background-position: 0 185px;
+    height: 185px;
+    margin: 0 auto;
+    width: 264px;
+
+}
+.difundirG:hover{
+    background-image: url("../images/involucrate.png");
+    background-position: 264px 185px;
+    height: 185px;
+    margin: 0 auto;
+    width: 264px
+}
+.fleft{    background-image: url("../images/btn-home.png");
+    background-position: 50px 77px;
+    height: 40px;
+    margin: 0 auto;
+    width: 20px;}
+.fleft:hover{    background-image: url("../images/btn-home.png");
+background-position: 30px 77px;
+height: 40px;
+margin: 0 auto;
+width: 20px;}
+.fright{    background-image: url("../images/btn-home.png");
+    background-position: 50px 35px;
+    height: 40px;
+    margin: 0 auto;
+    width: 20px;}
+.fright:hover{    background-image: url("../images/btn-home.png");
+background-position: 30px 35px;
+height: 40px;
+margin: 0 auto;
+width: 20px;}
+.mas{    background-image: url("../images/btn-home.png");
+    background-position: 27px 104px;
+    bottom: 25px;
+    height: 27px;
+    left: 50%;
+    position: absolute;
+    width: 27px;}
+.mas:hover{     background-image: url("../images/btn-home.png");
+    background-position: 53px 104px;
+   bottom: 25px;
+    height: 27px;
+    left: 50%;
+    position: absolute;
+    width: 27px;}
+.borrar{
+color:#EFEFEF;
+font-weigth:bold;
+}
+.v_align{
+    display:table-cell;
+    vertical-align:middle;
+}
+.rowGray{background-color:#F6F5F3; padding: 40px; margin-bottom:25px; overflow:hidden}
+.flechaArriba{
+ background-image: url("../images/otros.png");
+    background-position: 88px 141px;
+    height: 50px;
+    margin: 0 auto;
+    width: 86px;}
+	.rectangulo{
+	border-top:1px solid #c4c4c4;
+	border-bottom:1px solid #c4c4c4;
+	min-height:100px;margin-bottom: 30px;
+    margin-top: 30px;
+	}
+#MSG{height:125px}
+.blue{color:#1C97D0}
+.dirContent{background-color:#1C97D0; overflow:hidden; padding:10px; margin-bottom:25px; color:white}
+.bordertd{border-right:1px solid #ffffff !important; color:white !important;font-weight:bold}
+.white { color:white !important;font-weight:bold }
+.mapa{min-height:250px; }
+@media only screen and (max-width: 768px) {
+	.onePanel{
+	background-image:url("../images/IMG_1688_Small.jpg");
+	height: 300px;
+	}
+	
+	.divChild{
+	margin:0 auto;
+	width:60%;
+	height:150px;
+	margin-top:75px;
+
+	}
+}
+@media only screen and (min-width: 768px) {
+	.onePanel{
+	background-image:url("../images/IMG_1688_Small.jpg");
+	height: 300px;
+	}
+	
+	.divChild{
+	margin:0 auto;
+	width:60%;
+	height:150px;
+	margin-top:75px;
+
+	}
+}
+
+@media only screen and (min-width: 940px) {
+.onePanel{
+	background-image:url("../images/IMG_1688_Medium.jpg");
+	height: 600px;
+	}
+	.divChild{
+		margin:0 auto;
+		width:60%;
+		height:150px;
+		margin-top:225px;
+	}
+	.divChild2{		
+		margin-top:250px;margin-left:-35px;
+		
+	}
+	.fistPanle{height:490px}
+}
+
+@media only screen and (min-width: 1280px) {
+.onePanel{
+	background-image:url("../images/IMG_1688_Big.jpg");
+	height: 900px;
+	}
+	.divChild{
+		margin:0 auto;
+		width:60%;
+		height:150px;
+		margin-top:375px;
+	}
+	.divChild2{		
+		margin-top:400px;margin-left:-35px;
+	}
+	
+	.fistPanle{height:490px}
+	}
+@media only screen and (min-width: 1440px) {
+	.onePanel{
+	background-image:url("../images/IMG_1688_veryBig.jpg");
+	height: 2912px;
+	}
+	.divChild{
+		margin:0 auto;
+		width:60%;
+		height:150px;
+		margin-top:1381px;
+	}
+	.divChild2{		
+		margin-top:1406px;margin-left:-35px;
+	}
+	.fistPanle{height:490px}
+}
