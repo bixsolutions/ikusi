@@ -6,7 +6,7 @@ text-align:center;
 background-color:#1C95CC;
 }
 .fistPanle{ background: none repeat scroll 0% 0% white !important; border: medium none !important;}
-.cuadriculado{background-color:gray;     padding-top: 20px;}
+.cuadriculado{background-color:#CCC;     padding-top: 20px;}
 .name{ background-image: url("../images/logo-ikusi.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -17,12 +17,12 @@ background-color:#1C95CC;
     width: 130px;
 }
 .bolder {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 100;
     word-spacing: 1px;    letter-spacing: 1px;
 }
 .normal{
-font-size: 12px;
+font-size: 13px;
 }
 .divChild{
 	margin:0 auto;
@@ -300,6 +300,35 @@ font-weigth:bold;
 .bordertd{border-right:1px solid #ffffff !important; color:white !important;font-weight:bold}
 .white { color:white !important;font-weight:bold }
 .mapa{min-height:250px; }
+
+.sociales { position: fixed;
+z-index:99999;
+top: 16em;	
+}
+
+.azul { background: #1C95CC;
+width:100%;
+max-width:100%;
+}
+
+
+.relativo {margin-top: 50px;}
+
+.espacio {position: relative;
+top: 50px;}
+
+.full-width { background: #CCC}
+
+#smooth {position:relative;}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 	.onePanel{
 	background-image:url("../images/IMG_1688_Small.jpg");
@@ -309,8 +338,9 @@ font-weigth:bold;
 	.divChild{
 	margin:0 auto;
 	width:60%;
-	height:150px;
-	margin-top:75px;
+	position: relative;
+	top: 40px;
+	
 
 	}
 }
@@ -323,13 +353,31 @@ font-weigth:bold;
 	.divChild{
 	margin:0 auto;
 	width:60%;
+	margin-top: 75px;
 	height:150px;
-	margin-top:75px;
 
 	}
 }
 
 @media only screen and (min-width: 940px) {
+.onePanel{
+	background-image:url("../images/IMG_1688_Medium.jpg");
+	height: 450px;
+	}
+	.divChild{
+		margin:0 auto;
+		width:60%;
+		height:150px;
+		margin-top:140px;
+	}
+	.divChild2{		
+		margin-top:250px;margin-left:-35px;
+		
+	}
+	.fistPanle{height:490px}
+}
+
+@media only screen and (min-width: 1280px) {
 .onePanel{
 	background-image:url("../images/IMG_1688_Medium.jpg");
 	height: 600px;
@@ -341,24 +389,6 @@ font-weigth:bold;
 		margin-top:225px;
 	}
 	.divChild2{		
-		margin-top:250px;margin-left:-35px;
-		
-	}
-	.fistPanle{height:490px}
-}
-
-@media only screen and (min-width: 1280px) {
-.onePanel{
-	background-image:url("../images/IMG_1688_Big.jpg");
-	height: 900px;
-	}
-	.divChild{
-		margin:0 auto;
-		width:60%;
-		height:150px;
-		margin-top:375px;
-	}
-	.divChild2{		
 		margin-top:400px;margin-left:-35px;
 	}
 	
@@ -367,16 +397,24 @@ font-weigth:bold;
 @media only screen and (min-width: 1440px) {
 	.onePanel{
 	background-image:url("../images/IMG_1688_veryBig.jpg");
-	height: 2912px;
+	height: 600px;
 	}
 	.divChild{
 		margin:0 auto;
 		width:60%;
 		height:150px;
-		margin-top:1381px;
+		position:relative;
+		top: 140px;
 	}
 	.divChild2{		
-		margin-top:1406px;margin-left:-35px;
+		margin-top:200px;
+		margin-left:-35px;
 	}
 	.fistPanle{height:490px}
+
+	
+
 }
+
+
+
