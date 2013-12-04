@@ -14,15 +14,26 @@
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
-</head>
-<body>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-	<div class="row">
-		<div class="large-12 columns menuP">
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+<div id="top"></div>
+<body>
+	<div class="sociales"><a href="https://twitter.com/_ikusi"><div class="twitter socialMedia"></div></a>
+							<a href="https://www.facebook.com/ikusiuruguay"><div class="facebook socialMedia"></div></a>
+						<a href="http://www.globalgiving.org/projects/ikusi-storytelling-on-latin-american-non-profits/"><div class="donacion socialMedia"></div></a>
+                        
+                        </div>	
+	<div class="fixed"><div class="azul"><div class="row">
+		<div class="large-12 columns menuP" >
 		<nav class="top-bar">
-		  <ul class="title-area">
+		<a href="#">  <ul class="title-area"></a>
 			<!-- Title Area -->
-			<li class="name">
+			<a href="#top" class="smooth"><img src="images/logo-ikusi.png" width="130" height="50" style="position:relative; top:0.2em"></a>
 			  <h1><a href="#"></a></h1>
 			</li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -35,15 +46,15 @@
 					  <!--li class="divider"></li-->
 					  <!--<li class="active"><a href="#">INICIO</a></li>-->
 					    <!--li class="divider"></li-->
-					  <li><a href="#">ACERCA</a></li>
+					  <li><a href="#top" class="smooth">ACERCA</a></li>
 					    <!--li class="divider"></li-->
-					  <li><a href="#">HISTORIAS</a></li>
+					  <li><a href="#historias" class="smooth">HISTORIAS</a></li>
 					   <!--li class="divider"></li-->
-					   <li><a href="#">BLOG</a></li>
+					   <li><a href="#blog" class="smooth">BLOG</a></li>
 					    <!--li class="divider"></li-->
-					   <li><a href="#">INVOLUCRATE</a></li>
+					   <li><a href="#involucrate" class="smooth">INVOLUCRATE</a></li>
 					    <!--li class="divider"></li-->
-					   <li><a href="#">CONTACTO</a></li>
+					   <li><a href="#contacto" class="smooth">CONTACTO</a></li>
 					   <!--li class="divider"></li-->
 					   <!--<li><a href="#">ES</a></li>-->
 					    <!--li class="divider"></li-->
@@ -57,21 +68,16 @@
   </section>
 </nav>
 		
-				</div>
+		</div>		</div>
 </div>
-	<div class="row ">
+</div>
+	<div class="row full-width ">
 		<div class="large-12 columns">			
 
 			<!-- Grid Example -->
-			<div class="row onePanel">
-				<div class="large-1 columns">	
-					<div class="divChild2">
-						<div class="twitter socialMedia"></div>
-						<div class="facebook socialMedia"></div>
-						<div class="donacion socialMedia"></div>	
-					</div>
-				</div>
-				<div class="large-11 columns">
+<div class="relativo">			<div class="row onePanel ">
+				
+				<div class="large-12 columns">
 				
 						<div class="textCenter divChild">
 							<div class="playbtn"></div>
@@ -85,16 +91,16 @@
 					
 				</div>
 			</div>
-			
-		</div>
+			</div>
+		</div></div>
 		<div class="row">
-			<div class="large-12 columns">	
+			<div class="large-12 columns" style="margin-top:40px;">	
 				<div class="textCenter">
 					<h2>VEMOS - CONTAMOS - CAMBIAMOS </h2>
 				</div>
 			</div>
 		</div>
-		<div class="row cuadriculado">
+		<div class="full-width"><div class="row cuadriculado" style="margin-top:20px;">
 			<div class="large-12 columns">	
 			
 			<div class="row">
@@ -151,19 +157,19 @@
 			</div>
 			
 		</div>	
-		</div>
+		</div></div>
 		
 		<div class="row">
-			<div class="large-12 columns">
+			<div class="large-12 columns" style="margin-top:100px;">
 				<div class="textCenter">
 					<h2>NUESTROS PROYECTOS</h2>
 				</div>
 			</div>		
 		</div>
-		<div class="row">
+		<div class="row" style="margin-top:20px;">
 			<div class="large-12 columns">
 				<div class="flex-video">
-					<iframe width="420" height="315" src="http://www.youtube.com/embed/0_EW8aNgKlA" frameborder="0" allowfullscreen></iframe>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/ejWGThDRllE" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -190,16 +196,16 @@
 						  a quienes los programas educativos del CADI han ayudado a sobrellevar las dificultades a la hora de sacar adelante a una familia
 						  en un contexto socioeconómico crítico.</p>
 						  
-						  <p class="normal">El centro de Apollo al Desarrollo Integral (CADI) funciona desde 1992 en el barrio Casavalle. Atiende a niños y mujeres de la zona para
+						  <p class="normal" id="historias">El centro de Apollo al Desarrollo Integral (CADI) funciona desde 1992 en el barrio Casavalle. Atiende a niños y mujeres de la zona para
 						  contribuir al desarrollo comunitario y a mejorar la calidad de vida de la infancia y la familia en situación de riesgo social. Su actividad se centra en la 
 						  promoción de la mujer, facilitando su formación humana, cultural, profesional y social desde la primera infancia hasta la tercera edad.</p>
-						  <p class="normal">En esta producción de Ikusi (ikusi.org) Olga y Gelsa comparten su experiencia de la mano de CADI (centrocadi.org)<p>
+						  <p class="normal"">En esta producción de Ikusi (ikusi.org) Olga y Gelsa comparten su experiencia de la mano de CADI (centrocadi.org)<p>
 						</div>
 					</div>
 				</div>
 			</div>		  
 		</div>
-		<div class="row">
+		<div class="row" style="margin-top:40px;" >
 			<div class="large-12 columns">
 				<div class="textCenter">
 					<h3>HISTORIAS QUE MERECEN SER CONTADAS</h3>
@@ -284,7 +290,7 @@
 			</div>
 			<div class="large-1  columns"><div class="v_align fright"></div></div>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-top:100px;" id="involucrate">
 			<div class="large-12 columns">
 				<h6 class="textCenter">HAY MUCHAS FORMAS DE COLABORAR PARA QUE DÍA A DÍA</h6>
 				<h6 class="textCenter">HAYA MÁS PROTAGONISTAS QUE NOS INSPIREN CON SUS HISTORIAS</h6>
@@ -373,8 +379,8 @@
 					</div>					
 				</div>		
 		</div>
-		<div class="row">
-				<div class="large-12 columns">					
+		<div class="row" id="contacto">
+        				<div class="large-12 columns">					
 					<h3 class="textCenter blue">CONTACTANOS</h3>
 					<p class="textCenter">DE MOMENTO NUESTRAS OFICINAS ESTÁN EN LA SEDE DE SOCIALAB URUGUAY. EN EL CORAZÓN DEL BARRIO CORDÓN EN MONTEVIDEO</p>
 					<div class="mapa">
@@ -486,6 +492,16 @@
   
   <script>
     $(document).foundation();
+	
+	$('a.smooth').live('click', function(e) {  
+    var $link = $(this);  
+    var anchor  = $link.attr('href');  
+    $('html, body').stop().animate({  
+        scrollTop: $(anchor).offset().top  
+    }, 1000);  
+});  
+
+
   </script>
 </body>
 </html>

@@ -26,7 +26,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family:"Arial", "Helvetica Neue", "Helvetica", Helvetica,  sans-serif;
+  font-family: "Open Sans" , "Helvetica Neue", "Helvetica", Helvetica,  sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -123,6 +123,8 @@ select {
     margin-bottom: 0;
     max-width: none;
     *zoom: 1; }
+	
+	.row.full-width { width: 100%; max-width: 100%; }
     .row .row:before, .row .row:after {
       content: " ";
       display: table; }
@@ -1073,8 +1075,8 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family:  "Arial", "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
-  font-weight: bold;
+  font-family:  'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
+  font-weight: 100;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -1238,7 +1240,9 @@ blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 2.75em; }
+    font-size: 2em;
+	position: relative;
+	top:0.4em }
 
   h2 {
     font-size: 2.3125em; }
@@ -2826,10 +2830,10 @@ label.error {
     margin-bottom: 0; }
 
 .fixed {
-  width: 100%;
+  right: 0;
   left: 0;
   position: fixed;
-  top: 0;
+  
   z-index: 99; }
   .fixed.expanded:not(.top-bar) {
     overflow-y: auto;
@@ -2955,7 +2959,6 @@ label.error {
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-size: 0.8125em;
-    font-weight: bold;
     background: #1C95CC; }
     .top-bar-section ul li > a.button {
       /*background: #2ba6cb;*/
@@ -3077,7 +3080,7 @@ label.error {
     left: 0 !important; }
     .top-bar-section ul {
       width: auto;
-	      padding-top: 13px;
+	      padding-top: 8px;
       height: auto !important;
       display: inline; }
       .top-bar-section ul li {
@@ -3090,9 +3093,11 @@ label.error {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
+	  font-size: 1em;
       /*background: #111111; */}
       .top-bar-section li a:not(.button):hover {
-        background: #1C95aa; }
+       background: #1C95CC;
+	   font-weight: 900 }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
