@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<!--<title>Prueba de overlapping</title>
+<style type="text/css"> 
+#capa1{ position:absolute; z-index:1; background-color:#FFFFFF; }
+#capa2{ position:absolute; z-index:0; } 
+</style>
+</head>
+<body>
+
+<div id="capa2"> <img src="images/IMG_1688_Small.jpg" /> </div>
+<div id="capa1"> <img src="images/socialLabSquare.jpg"/> </div>
+
+-->
+
+
+
+<div class="contvideogaleria">
+    <div id="videogaleria">
+        <iframe width="420" height="236" src="http://player.vimeo.com/video/72756482?byline=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    
+    <div class="contvideogaleriaimg">
+        <a href="http://player.vimeo.com/video/72756482?byline=0" onclick="return cambiarvideo(this.href)" title="Video 1"><img src="images/impulso.png" /></a>
+        <a href="http://player.vimeo.com/video/73943376" onclick="return cambiarvideo(this.href)" title="Video 2"><img src="images/cadi.png" /></a>
+        <a href="http://www.youtube.com/v/Hr0Wv5DJhuk" onclick="return cambiarvideo(this.href)" title="Video 1"><img src="http://img.youtube.com/vi/Hr0Wv5DJhuk/default.jpg" /></a>
+        <a href="http://player.vimeo.com/video/72756482" onclick="return cambiarvideo(this.href)" title="Video 1"><img src="images/impulso.png" /></a>
+
+    </div>
+    <!-- DE ACÁ PARA ABAJO NO TOCAR EL CÓDIGO -->
+
+</div>
+
+<script type="text/javascript">
+// Creado por Vku.
+// http://loseasi.blogspot.com/
+    function cambiarvideo(url) {
+        document.getElementById('videogaleria').innerHTML = 
+                "<iframe width='420' height='236' src="+ url + " frameborder='0' allowfullscreen></iframe>";
+        return false;
+    }
+</script>

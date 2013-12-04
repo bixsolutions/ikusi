@@ -311,7 +311,8 @@ select {
 
   .row .large-offset-0 {
     position: relative;
-    margin-left: 0%; }
+    margin-left: 0%; 
+  }
 
   .row .large-offset-1 {
     position: relative;
@@ -4729,3 +4730,10 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+
+  
+  .table direccion{
+      float: right;
+  }
+  
+  
